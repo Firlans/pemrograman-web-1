@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Firlan Syah || Pertemuan 8 => latihan 1 : free registration</title>
+  </head>
+  <body>
+    <h1 style="text-align: center;">Free Registration</h1>
+    <form>
+      <table style="margin: auto;" >
+        <tr>
+          <td><label for="nama">Nama</label></td>
+          <td>:</td>
+          <td><input type="text" id="nama" /></td>
+        </tr>
+        <tr>
+          <td><label for="tbl-lahir">Tanggal Lahir</label></td>
+          <td>:</td>
+          <td><input type="datetime" name="tgl" id="tgl-lahir" /></td>
+        </tr>
+        <tr>
+          <td><label for="alamat">Alamat</label></td>
+          <td>:</td>
+          <td><textarea name="alamat" id="alamat" cols="30" rows="10"></textarea></td>
+        </tr>
+        <tr>
+          <td><label for="kota">Kota</label></td>
+          <td>:</td>
+          <td><input type="text" id="kota" /></td>
+        </tr>
+        <tr>
+          <td><label for="pekerjaan">Pekerjaan</label></td>
+          <td>:</td>
+          <td>
+            <select name="pekerjaan" id="pekerjaan">
+              <option value="Petani">Petani</option>
+              <option value="Pegawai Negeri">Pegawai Negeri</option>
+              <option value="Karyawan Swasta">Karyawan Swasta</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="jenis-kelamin">Jenis Kelamin</label></td>
+          <td>:</td>
+          <td>
+            <input
+              type="radio"
+              id="jenis-kelamin option-1"
+              name="jenis-kelamin"
+              value="Laki - laki"
+            /><label for="option-1">Laki - laki</label>
+            <input
+              type="radio"
+              id="jenis-kelamin option-2"
+              name="jenis-kelamin"
+              value="Perempuan"
+            /><label for="option-2">Perempuan</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="jurusan">Jurusan</label></td>
+          <td>:</td>
+          <td>
+            <select name="jurusan" id="jurusan">
+              <option value="Teknik Informatika">Teknik Informatika</option>
+              <option value="Teknik Industri">Teknik Industri</option>
+              <option value="Teknik Mesin">Teknik Mesin</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="hobi">Hobi</label></td>
+          <td>:</td>
+          <td>
+            <input type="checkbox" name="Reading" id="reading hobi" /><label
+              for="reading"
+              >Reading</label
+            ><br />
+            <input type="checkbox" name="Sport" id="sport hobi" /><label
+              for="sport"
+              >Sport</label
+            ><br />
+            <input type="checkbox" name="Singing" id="singing hobi" /><label
+              for="singing"
+              >Singing</label
+            ><br />
+            <input
+              type="checkbox"
+              name="Travelling"
+              id="travelling hobi"
+            /><label for="travelling">Travelling</label><br />
+          </td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td>
+            <button type="submit">Kirim</button>
+            <button type="reset">Cancel</button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
